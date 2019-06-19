@@ -1,0 +1,130 @@
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: -20px;
+    height: 70px;
+    background-color: #e3e3e3;
+}
+.logo {
+    height: 100px;
+}
+nav {
+    margin-top: -90px; 
+    font-size: 25px;
+    float: right;
+}
+nav li {
+margin-right: 30px;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+    }
+
+img {
+    height: 50px;
+}
+.list {
+    display: inline-flex;
+    list-style: none;
+}
+.hero {
+    margin-top:75px;
+    background-image: url("../img/ibm.jpg");
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txt {
+    color:#fff;
+    font-size: 2em;
+    /* width: 40%; */
+    text-align: center;
+}
+.txtP {
+    color:#fff;
+    font-size: 1.5em;
+    text-align: center;
+  }
+.txtFooter {
+    font-size: 15px;
+    }
+.flex-container{
+    display: flex;
+     background-color: #e3e3e3;
+  }
+  
+  .flex-container > div {
+    background-color:#fff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    width: 33%;
+    height: 150px;
+  }
+  .whatWeDoImg {
+      background-image: url("../img/DoWhat.jpg");
+      width:33%;
+      height: 350px;
+  }
+    .container {
+    background-color: #e3e3e3;
+    display: flex;
+    width: 100%;
+  }
+  .container aside {
+      margin-left: 10px;
+    align-content: center;
+    width:33%;
+    float: left;
+    background-color: #e3e3e3;
+  }
+
+  .flex-container-row {
+    align-content: center;
+    width:67%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background-color: #e3e3e3;
+  
+  }
+ .flex-container-row > div{
+    background-color: #fff;
+     margin: 10px; 
+    padding: 20px;
+    font-size: 20px;
+    height: 60px;
+  }
+  .flex-container-row div p {
+    font-size: 15px;
+    }
+  .footer {
+     background-color: grey;
+      height: 50px;
+       }
+   .txtFooter {
+       color: #e3e3e3;
+   }
+  .footer_half {
+      width:50%;
+  }
+  .footer_half2 {
+    margin-top: -5%;
+    float: right;
+   }
+   .footer aside {
+       line-height: 1.5rem;
+       padding-left: 50px;
+   }
+  .fa {
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #e3e3e3;
+  }
+  
